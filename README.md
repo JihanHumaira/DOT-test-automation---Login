@@ -1,12 +1,9 @@
 # DOT-test-automation---Login
 tugas test automation login https://www.psegameshop.com/
 
-
 Clone the repository and install all gems depedency:
-
-
-$ git clone git@github.com:JihanHumaira/DOT-test-automation--Login-.git
-$ cd DOT-test-automation--Login-
+$ git clone git@github.com:JihanHumaira/DOT-test-automation--Login.git
+$ cd DOT-test-automation--Login
 $ gem install bundler
 $ bundle install
 ```
@@ -22,4 +19,9 @@ for ubuntu:
 
 Run all features: `$ cucumber`
 
-Run spesific test only: `$ cucumber features/scenario/login.feature`
+Run spesific test only: `$ cucumber features/scenario/login.feature:(line)`
+
+example:
+scenario line 3
+$ cucumber features/scenario/login.feature:3
+
